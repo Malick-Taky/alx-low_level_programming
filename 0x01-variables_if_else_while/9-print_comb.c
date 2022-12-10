@@ -18,8 +18,15 @@ int main(void)
 	for (num = '0'; num <= '9'; num++)
 	{
 		putchar(num);
-		putchar(coma);
-		putchar(space);
+		if (num == '9')
+		{
+
+		}
+		else
+		{
+			putchar(coma);
+			putchar(space);
+		}
 	}
 	putchar(line);
 	return (0);
