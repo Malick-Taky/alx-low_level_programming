@@ -49,3 +49,6 @@ FYI: The standard library provides a similar function: abs. Run man abs to learn
 9- The file 9-times_tables is a function that prints the 9 times table, starting with 0.
 
 	* Prototype: void times_table(void);
+
+10- The file 10-add.c is a function that adds two integers and returns the result.
+	* Prototype: int add(int, int);
