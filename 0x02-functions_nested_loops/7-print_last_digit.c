@@ -5,12 +5,21 @@
  *
  * @c: argument of the function
  *
- * Return: result (Success)
+ * Return: 0 (Success)
  */
 int print_last_digit(int c)
 {
-	int result;
+	int a;
 
-	result = c%10;
-	return (result);
+	if (c < 0)
+	{
+		c = -c;
+		a = c % 10;
+	}
+	if (a < 0)
+	{
+		a = -a;
+		_putchar('0' + a);
+	}
+	return (a);
 }
