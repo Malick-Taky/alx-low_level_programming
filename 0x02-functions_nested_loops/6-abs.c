@@ -13,7 +13,9 @@ int _abs(int c)
 
 	if (c < 0)
 		result = c * (-1);
-	else
-		result = c * c;
+	else if (c > 0)
+		result = c;
+	else if (c == 0)
+		result = c;
 	return (result);
 }
