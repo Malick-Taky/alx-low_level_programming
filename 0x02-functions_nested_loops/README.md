@@ -30,3 +30,9 @@ FYI: The standard library provides a similar function: isalpha. Run man isalpha 
 	* Returns 1 and prints + if n is greater than zero
 	* Returns 0 and prints 0 if n is zero
 	* Returns -1 and prints - if n is less than zero
+
+6- The file 6-abs.c is a function that computes the absolute value of an integer.
+
+	* Prototype: int _abs(int);
+FYI: The standard library provides a similar function: abs. Run man abs to learn more.
+
